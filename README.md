@@ -32,6 +32,11 @@ List of avaliable classes/effects:
 * left-to-fade
 * center-to-fade
 
+What if I have tabs, for exemple, and I want to animate the elements when I switch tabs? Don't worry! All you have to do is add a simple line in your switch tab function:
+
+```
+dieidi.triggerAnim();
+```
 
 
 # Animations CSS - Português
@@ -67,3 +72,13 @@ Lista de classes/efeitos disponíveis:
 * left-to
 * left-to-fade
 * center-to-fade
+
+E se eu quiser animar os elementos quando eu trocar uma aba, por exemplo? Não se preocupe! Tudo que você precisa fazer é adicionar uma simples linha javascript na sua função de trocar abas:
+
+```
+dieidi.triggerAnim();
+```
+
+
+Animations CSS - Version 1.0
+Copyright (c) 2016, AGÊNCIA GH - (http://agenciagh.com.br/)
