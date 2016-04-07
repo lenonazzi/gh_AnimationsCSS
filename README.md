@@ -23,6 +23,12 @@ Now you have to use classes to your elements that you want to animate. For exemp
 This will make your **dieidi** element become opacity 0 and 70px to bottom.
 When your page loads and the element is at least 50% on viewport or you scroll to the element, **dieidi** will fade-in and move to it's original position.
 
+What if I have tabs, for exemple, and I want to animate the elements when I switch tabs? Don't worry! All you have to do is add a simple line in your switch tab function:
+
+```
+dieidi.triggerAnim();
+```
+
 List of avaliable classes/effects:
 * top-to-fade
 * right-to
@@ -31,12 +37,6 @@ List of avaliable classes/effects:
 * left-to
 * left-to-fade
 * center-to-fade
-
-What if I have tabs, for exemple, and I want to animate the elements when I switch tabs? Don't worry! All you have to do is add a simple line in your switch tab function:
-
-```
-dieidi.triggerAnim();
-```
 
 
 # Animations CSS - Português
@@ -64,6 +64,12 @@ Agora você precisa usar classes nos elementos que você deseja animar. Por exem
 Isso irá fazer com que o elemento **dieidi** fique com a opacidade 0 e 70px abaixo da posição original.
 Quando a página carregar e o elemento estiver no mínimo 50% vísivel no campo de visão do documento ou quando você rolar até o elemento, **dieidi** vai aparecer e deslizar até sua posição original.
 
+E se eu quiser animar os elementos quando eu trocar uma aba, por exemplo? Não se preocupe! Tudo que você precisa fazer é adicionar uma simples linha javascript na sua função de trocar abas:
+
+```
+dieidi.triggerAnim();
+```
+
 Lista de classes/efeitos disponíveis:
 * top-to-fade
 * right-to
@@ -73,12 +79,7 @@ Lista de classes/efeitos disponíveis:
 * left-to-fade
 * center-to-fade
 
-E se eu quiser animar os elementos quando eu trocar uma aba, por exemplo? Não se preocupe! Tudo que você precisa fazer é adicionar uma simples linha javascript na sua função de trocar abas:
-
-```
-dieidi.triggerAnim();
-```
-
 
 Animations CSS - Version 1.0
+
 Copyright (c) 2016, AGÊNCIA GH - (http://agenciagh.com.br/)
